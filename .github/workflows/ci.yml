@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    uses: opsmx/semgrep-cli-test/.github/workflows/worker-workflow.yml@main
+    uses: opsmx/gha-ssd-builldevents/.github/workflows/worker-workflow.yml@main
     with:
       image_tag: ${{ github.run_id }}
       repository: 'coindcx-repo'
